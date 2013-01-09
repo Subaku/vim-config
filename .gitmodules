@@ -2,3 +2,7 @@
 	path = bundle/nerdtree
     url = https://github.com/scrooloose/nerdtree.git
     ignore = dirty
+[submodule "bundle/bufexplorer"]
+	path = bundle/bufexplorer
+    url = https://github.com/corntrace/bufexplorer.git
+    ignore = dirty
