@@ -88,7 +88,7 @@ colorscheme inkpot
 
 "Tell Pathogen to execute.
 execute pathogen#infect()
-
+call pathogen#helptags()
 
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""
