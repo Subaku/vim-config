@@ -91,9 +91,7 @@ execute pathogen#infect()
 call pathogen#helptags()
 
 
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-"                        Nerd Tree                        "
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+""""""""""""""""""""""""Nerd Tree""""""""""""""""""""""""""
 
 "CTRL-n to toggle plugin.
 map <C-n> :NERDTreeToggle<CR>
@@ -104,4 +102,13 @@ autocmd vimenter * if !argc() | NERDTree | endif
 "Make window size a little bigger than default 31
 let NERDTreeWinSize=75
 
+"Positions nerd tree to the right instead of default left.
 let NERDTreeWinPos="right"
+
+"Auto close nerd tree when opening a file
+let NERDTreeQuitOnOpen=1
+
+
+""""""""""""""""""""""Bufexplorer""""""""""""""""""""""""""
+
+let g:bufExplorerSortBy='name'
