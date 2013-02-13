@@ -8,7 +8,7 @@ set nocompatible
 filetype indent plugin on
  
 "Enable syntax highlighting 
-syntax on
+syntax enable
  
 "Enable switching from an  unsaved buffer without saving it first and keep an undo history for multiple files. Warn when quitting without saving, and keep swap files.
 "set hidden
@@ -76,11 +76,15 @@ set smarttab
 
 "Start scrolling before reaching the edge of screen
 set scrolloff=8
- 
-"Set the color theme to be used 
-colorscheme inkpot
 
 
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+"                        Colors                           "
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+set background=dark
+let g:solarized_termcolors=256
+colorscheme solarized
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 "                        Plugins                          "
