@@ -77,6 +77,14 @@ set smarttab
 "Start scrolling before reaching the edge of screen
 set scrolloff=8
 
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+"                    Code Folding                         "
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+set foldmethod=indent
+set foldnestmax=10
+set nofoldenable
+set foldlevel=1
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 "                        Colors                           "
