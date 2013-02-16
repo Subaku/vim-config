@@ -83,7 +83,6 @@ set scrolloff=8
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 set background=dark
-"let g:solarized_termcolors=256
 colorscheme solarized
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -94,13 +93,6 @@ colorscheme solarized
 execute pathogen#infect()
 call pathogen#helptags()
 
-
-""""""""""""""""""""""""Omnicomplete""""""""""""""""""""""""""
-
-"autocmd FileType python set omnifunc=pythoncomplete#Complete
-"autocmd FileType javascript set omnifunc=javascriptcomplete#CompleteJS
-"autocmd FileType html set omnifunc=htmlcomplete#CompleteTags
-"autocmd FileType css set omnifunc=csscomplete#CompleteCSS
 
 """"""""""""""""""""""""Nerd Tree""""""""""""""""""""""""""
 
