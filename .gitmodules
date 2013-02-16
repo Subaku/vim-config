@@ -16,5 +16,5 @@
     ignore = dirty
 [submodule "bundle/snipMate"]
 	path = bundle/snipMate
-	url = https://github.com:Subaku/snipmate.vim.git
+	url = git@github.com:Subaku/snipmate.vim.git
     ignore = dirty
