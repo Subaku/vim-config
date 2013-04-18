@@ -16,9 +16,6 @@ syntax enable
 "Better command-line completion 
 set wildmenu
  
-"Show partial commands in the last line of the screen 
-"set showcmd
- 
 "Highlight searches (use Ctrl+L to temporarily turn off highlighting)
 set hlsearch 
 nnoremap <C-L> :nohl<CR><C-L>
@@ -46,16 +43,18 @@ set laststatus=2
 set visualbell
  
 "Set the command window height to 2 lines, to avoid many cases of having to press <Enter> to continue  
-set cmdheight=2
+iset cmdheight=2
  
 "Display line numbers on the left
 set number
  
 "Quickly time out on keycodes, but never time out on mappings
-"set notimeout ttimeout ttimeoutlen=200
+set timeout timeoutlen=150
  
 "Use F11 to toggle between paste and nopaste
-set pastetoggle=<F11>
+nnoremap <C-p> :set invpaste paste?<CR>
+set pastetoggle=<C-p>
+set showmode
  
 "User specific mappints
 imap jk <esc>
